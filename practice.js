@@ -131,6 +131,34 @@ var numbersArray = [1,2,34,54,55,34,32,11,19,17,54,66,13];
 */
 
 //Code Here
+function divider(numbersArray){
+  let evens = numbersArray.filter(function(num){
+    return num % 2 === 0;
+  })
+  let odds = numbersArray.filter(function(num){
+    return num % 2 === 1;
+  });
+  return [evens, odds];
+
+
+
+  // let evens = [];
+  // let odds = [];
+  // for (i=0;i<numbersArray.length;i++){
+  //   if (numbersArray[i] % 2 === 0){
+  //     evens.push(numbersArray[i]);
+  //   } else {
+  //     odds.push(numbersArray[i])
+  //   }
+  // }
+  // return [evens, odds];
+
+
+}
+
+
+
+
 
 
 
@@ -152,7 +180,9 @@ var getRandomArbitrary = function() {
 */
 
 //Code Here
-
+function finder(array){
+  
+}
 
 
 ////////// PROBLEM 8 //////////
